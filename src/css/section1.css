@@ -1,0 +1,41 @@
+.section {
+    background-color: #f8f9fa; /* Light gray background */
+    width: 100%; /* Full width */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    background-image: linear-gradient(135deg, #000000, #363636); /* Gradient background */
+    color: #fff; /* White text color */
+  }
+  
+  .title {
+    color: #f8f9fa; /* Hot pink heading */
+    font-size: 66px; /* Increase font size */
+    font-weight: bold; /* Make font bold */
+    text-transform: uppercase; /* Uppercase heading */
+    text-align: left; 
+    line-height: 1; 
+    font-family: 'Fredoka One', sans-serif; 
+  }
+  .subtitle {
+    color: #f8f9fa; /* Light text color */
+    font-size: 24px; /* Font size */
+    font-weight: bold; /* Font weight */
+    margin-top: 10px; /* Top margin */
+    text-align: left; 
+  }
+  
+
+  .custom-navbar {
+    background-color: transparent !important;
+  }
+  
+  .phone-image {
+    width: 35vh;
+    border-radius: 59px; /* Adjust the border-radius to match the curved edges of your image */
+    box-shadow: 0 0 30px rgba(128, 0, 128, 0.3); /* Apply the initial box-shadow with a purple color */
+    transition: box-shadow 0.3s, filter 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .phone-image:hover {
+    box-shadow: 0 0 50px rgba(255, 0, 255, 0.3); /* Change the shadow to a glow effect on hover */
+    filter: brightness(1.2); /* Increase brightness on hover */
+  }
