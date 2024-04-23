@@ -1,0 +1,59 @@
+.title5 {
+  color: #161616;
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.carousel-container {
+  height: 500px; /* Set a fixed height for the carousel container */
+}
+
+.carousel-title {
+  text-align: center; /* Center the title */
+  font-size: 2rem; /* Increase font size */
+  margin-bottom: 30px; /* Add some spacing below the title */
+  color: #333; /* Change title color */
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background to caption */
+  padding: 20px; /* Add padding to caption */
+  border-radius: 10px; /* Add border radius to caption */
+}
+
+.carousel-caption h3 {
+  color: #fff; /* Change caption title color */
+  font-size: 1.5rem; /* Increase caption title font size */
+}
+
+.carousel-caption p {
+  color: #fff; /* Change caption text color */
+}
+
+.carousel-image {
+  height: 570px; /* Set the height of the images to fill the carousel container */
+  width: 100%; /* Ensure the image takes up the entire width of its container */
+  object-fit: cover; /* Crop the image to cover the entire container */
+  border-radius: 10px; /* Add border radius to images */
+}
+
+
+
+.carousel-control-prev {
+  left: -50px; /* Position the previous control arrow */
+}
+
+.carousel-control-next {
+  right: -50px; /* Position the next control arrow */
+}
+
+.carousel-indicators li {
+  background-color: #333; /* Change carousel indicator color */
+  border-radius: 50%; /* Make carousel indicators circular */
+}
+
+.carousel-indicators .active {
+  background-color: #fff; /* Change color of active carousel indicator */
+}

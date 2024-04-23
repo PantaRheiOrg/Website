@@ -1,14 +1,14 @@
-.section2 {
+.section4 {
   background-color: #f8f9fa; /* Light gray background */
   width: 100%; /* Full width */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
-  background-image: linear-gradient(135deg, #000000, #313131); /* Gradient background */
+  background-image: linear-gradient(135deg, #000000, #363636); /* Gradient background */
   color: #fff; /* White text color */
 }
   
-.title2 {
+.title4 {
   color: #f8f9fa; /* Hot pink heading */
-  font-size: 80px; /* Increase font size */
+  font-size: 66px; /* Increase font size */
   font-weight: bold; /* Make font bold */
   text-transform: uppercase; /* Uppercase heading */
   text-align: left; 
@@ -16,43 +16,43 @@
   font-family: 'Fredoka One', sans-serif; 
 }
   
-  .subtitle2 {
+  .subtitle4 {
     color: #f8f9fa; /* Light text color */
     font-size: 24px; /* Font size */
     font-weight: bold; /* Font weight */
     margin-top: 10px; /* Top margin */
     text-align: left; 
   }
-  .section2 {
+  .section4 {
     overflow: hidden; /* Hide overflowing content */
   }
-  .phone-image2 {
+  .phone-image4 {
     width: 35vh;
     border-radius:52px; /* Adjust the border-radius to match the curved edges of your image */
     box-shadow: 0 0 30px rgba(255, 0, 0, 0.3); /* Start with red shadow */
     transition: filter 0.3s; /* Add transition for smooth effect */
-    animation: shadow-color4 7s infinite alternate; /* Apply the animation */
+    animation: shadow-color2 7s infinite alternate; /* Apply the animation */
   }
   
-  .phone-image2:hover {
-    filter: brightness(0.90); /* Increase brightness on hover */
+  .phone-image4:hover {
+    filter: brightness(1.2); /* Increase brightness on hover */
   }
   
-  @keyframes shadow-color4 {
+  @keyframes shadow-color2 {
     0% {
-      box-shadow: 0 0 60px rgba(165, 1, 1, 0.7); /* Start with a strong red shadow */
+      box-shadow: 0 0 30px rgb(218, 197, 0); /* Start with a strong gold shadow */
     }
     25% {
-      box-shadow: 0 0 45px rgba(255, 174, 0, 0.6); /* Gradually decrease red shadow strength */
+      box-shadow: 0 0 45px rgb(218, 164, 0); /* Gradually decrease gold shadow strength */
     }
     50% {
-      box-shadow: 0 0 30px rgb(255, 255, 0); /* Transition to yellow shadow */
+      box-shadow: 0 0 40px rgb(255, 224, 50); /* Transition to gold shadow */
     }
     75% {
-      box-shadow: 0 0 25px rgba(145, 255, 0, 0.534); /* Keep yellow shadow strength */
+      box-shadow: 0 0 60px rgb(255, 223, 44); /* Keep gold shadow strength */
     }
     100% {
-      box-shadow: 0 0 20px rgb(72, 255, 0); /* End with a lighter green shadow */
+      box-shadow: 0 0 50px rgb(255, 217, 0); /* End with a lighter green shadow */
     }
   }
   

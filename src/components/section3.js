@@ -40,7 +40,7 @@ function Section3() {
                     newState[index] = true;
                     return newState;
                   });
-                }, (index + 1) * 500) // Adjust timing as needed
+                }, (index + 1) * 300) // Adjust timing as needed
               );
             });
             observer.unobserve(sectionRef.current);

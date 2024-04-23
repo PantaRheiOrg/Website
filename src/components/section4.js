@@ -1,16 +1,16 @@
 import React from 'react';
-import '../css/section2.css';
-import partyImage from '../images/phone2.png';
+import '../css/section4.css';
+import partyImage from '../images/phone.png';
 
-function Section2() {
+function Section4() {
   return (
-      <div className="section2 d-flex align-items-center justify-content-center">
+      <div className="section4 d-flex align-items-center justify-content-center">
         <div className="row w-100">
         <div className="col-md-6 d-flex align-items-center justify-content-center">
             <div className="w-90 h-100 d-flex align-items-center justify-content-center">
               <div className='text-center w-50'>
-                <p className='title2'>heat!</p>
-                <p className='subtitle2 w-40'>Unleash your inner thrill-seeker and discover the pulse-pounding epicenters of action-packed excitement!</p>
+                <p className='title4'>Mystery</p>
+                <p className='subtitle4 w-40'> Take photos during the night, even when you've had a few drinks, and discover them the next day with our exclusive Night Capture feature!</p>
               </div>            
             </div>         
           </div>
@@ -20,7 +20,7 @@ function Section2() {
                 <img 
                   src={partyImage} 
                   alt="Party" 
-                  className="phone-image2" // Add the phone-image class here
+                  className="phone-image4" // Add the phone-image class here
                 />
               </div>
             </div>
@@ -31,4 +31,4 @@ function Section2() {
   );
 }
 
-export default Section2;
+export default Section4;

@@ -9,7 +9,7 @@
 
 .title3 {
   color: #161616;
-  font-size: 46px;
+  font-size: 437x;
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'Press Start 2P', cursive; /* Apply the funny font */
@@ -32,7 +32,10 @@
   padding-left: 5px;
 }
 
-.p321,
+.p321{
+  padding-left: 60px;
+}
+
 .p341,
 .p331 {
   padding-left: 40px;
@@ -81,9 +84,12 @@
 
 @keyframes fadeIn {
   0% {
-    opacity: 0;
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px); /* Jump up */
   }
   100% {
-    opacity: 1;
+    transform: translateY(0);
   }
 }
