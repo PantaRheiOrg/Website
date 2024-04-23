@@ -36,6 +36,32 @@
   }
   
   .phone-image:hover {
-    box-shadow: 0 0 50px rgba(255, 0, 255, 0.3); /* Change the shadow to a glow effect on hover */
+    box-shadow: 0 0 50px rgba(255, 0, 255, 1); /* Change the shadow to a glow effect on hover */
     filter: brightness(1.2); /* Increase brightness on hover */
   }
+  /* section1.css */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 1s forwards;
+}
+
+.slide-in-right {
+  animation: slideInRight 1s forwards;
+}
