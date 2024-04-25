@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 .title5 {
-  font-family: 'Luckiest Guy', cursive; /* Apply the Luckiest Guy font for a fun and humorous look */
-  color: #8400ff; /* Change title color to a vibrant tone */
+  color: #000; /* Change title color to a vibrant tone */
   font-size: 3.5rem; /* Increase font size for emphasis */
-  font-weight:400;
+  font-weight:bold;
   text-transform: uppercase;
   margin-bottom: 50px; /* Increase spacing below the title */
 }
@@ -39,7 +38,7 @@
   height: 600px; /* Adjust image height for better visual impact */
   object-fit: cover;
   border-radius: 15px; /* Increase border radius for a softer look */
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow for depth */
+ /* Add a subtle box shadow for depth */
 }
 
 .carousel-control-prev,

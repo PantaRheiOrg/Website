@@ -105,23 +105,33 @@
 
 @keyframes glow {
   0% {
-    text-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 9px #8400ff, 0 0 12px #8400ff, 0 0 15px #8400ff, 0 0 18px #8400ff, 0 0 21px #8400ff;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3), 0 0 2px rgba(255, 255, 255, 0.3), 0 0 3px rgba(132, 0, 255, 0.3), 0 0 4px rgba(132, 0, 255, 0.3), 0 0 5px rgba(132, 0, 255, 0.3), 0 0 6px rgba(132, 0, 255, 0.3), 0 0 7px rgba(132, 0, 255, 0.3);
   }
   
   25% {
-    text-shadow: 0 0 6px #fff, 0 0 9px #d462ff, 0 0 12px #d462ff, 0 0 15px #d462ff, 0 0 18px #d462ff, 0 0 21px #d462ff, 0 0 24px #d462ff;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.3), 0 0 3px rgba(212, 98, 255, 0.3), 0 0 4px rgba(212, 98, 255, 0.3), 0 0 5px rgba(212, 98, 255, 0.3), 0 0 6px rgba(212, 98, 255, 0.3), 0 0 7px rgba(212, 98, 255, 0.3), 0 0 8px rgba(212, 98, 255, 0.3);
   }
 
   50% {
-    text-shadow: 0 0 9px #fff, 0 0 12px #fff, 0 0 15px #8400ff, 0 0 18px #8400ff, 0 0 21px #8400ff, 0 0 24px #8400ff, 0 0 27px #8400ff;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.3), 0 0 4px rgba(255, 255, 255, 0.3), 0 0 5px rgba(132, 0, 255, 0.3), 0 0 6px rgba(132, 0, 255, 0.3), 0 0 7px rgba(132, 0, 255, 0.3), 0 0 8px rgba(132, 0, 255, 0.3), 0 0 9px rgba(132, 0, 255, 0.3);
   }
 
   75% {
-    text-shadow: 0 0 6px #fff, 0 0 9px #d462ff, 0 0 12px #d462ff, 0 0 15px #d462ff, 0 0 18px #d462ff, 0 0 21px #d462ff, 0 0 24px #d462ff;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.3), 0 0 3px rgba(212, 98, 255, 0.3), 0 0 4px rgba(212, 98, 255, 0.3), 0 0 5px rgba(212, 98, 255, 0.3), 0 0 6px rgba(212, 98, 255, 0.3), 0 0 7px rgba(212, 98, 255, 0.3), 0 0 8px rgba(212, 98, 255, 0.3);
   }
 
   100% {
-    text-shadow: 0 0 3px #fff, 0 0 6px #fff, 0 0 9px #8400ff, 0 0 12px #8400ff, 0 0 15px #8400ff, 0 0 18px #8400ff, 0 0 21px #8400ff;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3), 0 0 2px rgba(255, 255, 255, 0.3), 0 0 3px rgba(132, 0, 255, 0.3), 0 0 4px rgba(132, 0, 255, 0.3), 0 0 5px rgba(132, 0, 255, 0.3), 0 0 6px rgba(132, 0, 255, 0.3), 0 0 7px rgba(132, 0, 255, 0.3);
   }
 }
 
+
+
+.fwb{
+  font-weight: bold;
+}
+
+
+.tis{
+  font-size: 20px;
+}

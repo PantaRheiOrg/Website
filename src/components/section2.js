@@ -14,8 +14,8 @@ function Section2() {
               </div>            
             </div>         
           </div>
-          <div className="col-md-6 d-flex align-items-center justify-content-center overflow-hidden">
-            <div className="w-90 h-50">
+          <div className="col-md-6 d-flex align-items-center justify-content-center overflow-hidden custom-background">
+            <div className="w-90 h-50"> 
               <div className='text-center w-75'>
                 <img 
                   src={partyImage} 

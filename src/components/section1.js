@@ -46,13 +46,14 @@ function Section1() {
         >
           <div className="w-90 h-100 d-flex align-items-center justify-content-center">
             <div className="text-center w-50">
-              <p className="title">THE free PARTY APP</p>
+              <p className="title">THE PARTY APP</p>
               <p className="subtitle w-100">
                 Get a free drink to start the night every time you explore
                 with PNTA.
               </p>
               <div className="d-flex justify-content-end">
-                <button className="funny-btn">Get App</button>
+                <button className="funny-btn fwb"  onMouseEnter={handleHover}
+                onMouseLeave={handleHover}>Get App</button>
               </div>
             </div>
           </div>

@@ -7,14 +7,13 @@
 }
   
 .title4 {
-  color: #f8f9fa; /* Hot pink heading */
   font-size: 66px; /* Increase font size */
   font-weight: bold; /* Make font bold */
   text-transform: uppercase; /* Uppercase heading */
   text-align: left; 
   line-height: 1; 
   font-family: 'Fredoka One', sans-serif; 
-  color: rgb(255, 174, 0);
+  color: rgb(6, 197, 197);
 }
   
   .subtitle4 {
@@ -38,22 +37,27 @@
   .phone-image4:hover {
     filter: brightness(1.2); /* Increase brightness on hover */
   }
+  .custom-background2 {
+    background-image: url('../images/mysterious.png');
+    background-size: cover;
+    background-position: center;
+  }
   
   @keyframes shadow-color2 {
     0% {
-      box-shadow: 0 0 30px rgb(218, 197, 0); /* Start with a strong gold shadow */
+      box-shadow: 0 0 20px rgb(0, 128, 128); /* Start with a lighter teal blue shadow */
     }
     25% {
-      box-shadow: 0 0 45px rgb(218, 164, 0); /* Gradually decrease gold shadow strength */
+      box-shadow: 0 0 30px rgb(0, 100, 100); /* Decrease teal blue shadow intensity */
     }
     50% {
-      box-shadow: 0 0 40px rgb(255, 224, 50); /* Transition to gold shadow */
+      box-shadow: 0 0 25px rgb(0, 139, 139); /* Transition to teal blue shadow */
     }
     75% {
-      box-shadow: 0 0 60px rgb(255, 223, 44); /* Keep gold shadow strength */
+      box-shadow: 0 0 35px rgb(0, 139, 139); /* Keep teal blue shadow intensity */
     }
     100% {
-      box-shadow: 0 0 50px rgb(255, 217, 0); /* End with a lighter green shadow */
+      box-shadow: 0 0 30px rgb(0, 206, 209); /* End with a lighter teal blue shadow */
     }
   }
   

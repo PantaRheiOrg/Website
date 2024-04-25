@@ -5,6 +5,11 @@
   background-image: linear-gradient(135deg, #000000, #313131); /* Gradient background */
   color: #fff; /* White text color */
 }
+.custom-background {
+  background-image: url('../images/maps.png');
+  background-size: cover;
+  background-position: center;
+}
   
 .title2 {
   color: #f8f9fa; /* Hot pink heading */
@@ -41,19 +46,19 @@
   
   @keyframes shadow-color4 {
     0% {
-      box-shadow: 0 0 60px rgba(165, 1, 1, 0.7); /* Start with a strong red shadow */
+      box-shadow: 0 0 60px rgba(255, 255, 255, 0.7); /* Start with a strong white neon glow */
     }
     25% {
-      box-shadow: 0 0 45px rgba(255, 174, 0, 0.6); /* Gradually decrease red shadow strength */
+      box-shadow: 0 0 45px rgba(255, 255, 255, 0.6); /* Gradually decrease white neon glow strength */
     }
     50% {
-      box-shadow: 0 0 30px rgb(255, 255, 0); /* Transition to yellow shadow */
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.5); /* Transition to a lighter white glow */
     }
     75% {
-      box-shadow: 0 0 25px rgba(145, 255, 0, 0.534); /* Keep yellow shadow strength */
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.4); /* Keep light white glow strength */
     }
     100% {
-      box-shadow: 0 0 20px rgb(72, 255, 0); /* End with a lighter green shadow */
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* End with a very light white glow */
     }
   }
   
