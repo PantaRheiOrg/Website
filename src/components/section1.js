@@ -32,6 +32,11 @@ function Section1() {
     };
   }, []);
 
+  const handleHover = () => {
+    const title = document.querySelector('.title');
+    title.classList.toggle('glow');
+  };
+
   return (
     <div className="section d-flex align-items-center justify-content-center">
       <div className="row w-100">
@@ -58,7 +63,13 @@ function Section1() {
         >
           <div className="w-90 h-50 position-relative">
             <div className="text-center w-75">
-              <img src={partyImage} alt="Party" className="phone-image" />
+              <img
+                src={partyImage}
+                alt="Party"
+                className="phone-image"
+                onMouseEnter={handleHover}
+                onMouseLeave={handleHover}
+              />
             </div>
           </div>
         </div>
