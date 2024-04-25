@@ -39,6 +39,7 @@
   .phone-image:hover {
     box-shadow: 0 0 50px rgba(255, 0, 255, 1); /* Change the shadow to a glow effect on hover */
     filter: brightness(1.2); /* Increase brightness on hover */
+    animation: bounce 0.5s;
   }
   /* section1.css */
 @keyframes slideInLeft {
@@ -65,4 +66,15 @@
 
 .slide-in-right {
   animation: slideInRight 1s forwards;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
