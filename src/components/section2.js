@@ -8,7 +8,7 @@ function Section2() {
         <div className="row w-100">
         <div className="col-md-6 d-flex align-items-center justify-content-center">
             <div className="w-90 h-100 d-flex align-items-center justify-content-center">
-              <div className='text-center w-50'>
+              <div className='text-center w-50 pt-3'>
                 <p className='title2'>heat!</p>
                 <p className='subtitle2 w-40'>Unleash your inner thrill-seeker and discover the pulse-pounding epicenters of action-packed excitement!</p>
               </div>            

@@ -8,7 +8,7 @@ function Section4() {
        <div className="row">
         <div className="col-md-6 d-flex align-items-center justify-content-center">
               <div className="w-90 h-100 d-flex align-items-center justify-content-center">
-                <div className='text-center w-50'>
+                <div className='text-center w-50 pt-3'>
                   <p className='title4'>Mystery</p>
                   <p className='subtitle4 w-40'> Take photos during the night, even when you've had a few drinks, and discover them the next day with our exclusive Night Capture feature!</p>
                 </div>            

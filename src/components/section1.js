@@ -1,9 +1,16 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef,useState } from 'react';
 import '../css/section1.css';
 import '../css/button.css';
 import partyImage from '../images/phone.png';
-
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 function Section1() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+
   const leftColumnRef = useRef(null);
   const rightColumnRef = useRef(null);
 
@@ -39,13 +46,24 @@ function Section1() {
 
   return (
     <div className="section d-flex align-items-center justify-content-center">
+      <Modal show={show} onHide={handleClose} className="custom-modal">
+      <Modal.Header closeButton>
+        <Modal.Title>App soon available!</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>PNTA is not available yet, for more information please contact @oliver</Modal.Body>
+      <Modal.Footer>
+        <Button variant="danger" onClick={handleClose}>
+          Close
+        </Button>
+      </Modal.Footer>
+    </Modal>
       <div className="row w-100">
         <div
           ref={leftColumnRef}
           className="col-md-6 d-flex align-items-center justify-content-center"
         >
           <div className="w-90 h-100 d-flex align-items-center justify-content-center">
-            <div className="text-center w-50">
+            <div className="text-center w-50  pt-3">
               <p className="title">THE PARTY APP</p>
               <p className="subtitle w-100">
                 Get a free drink to start the night every time you explore
@@ -53,7 +71,7 @@ function Section1() {
               </p>
               <div className="d-flex justify-content-end">
                 <button className="funny-btn fwb"  onMouseEnter={handleHover}
-                onMouseLeave={handleHover}>Get App</button>
+                onMouseLeave={handleHover} onClick={handleShow}>Get App</button>
               </div>
             </div>
           </div>
@@ -70,6 +88,7 @@ function Section1() {
                 className="phone-image"
                 onMouseEnter={handleHover}
                 onMouseLeave={handleHover}
+                onClick={handleShow}
               />
             </div>
           </div>

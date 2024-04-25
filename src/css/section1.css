@@ -132,6 +132,34 @@
 }
 
 
-.tis{
-  font-size: 20px;
+.custom-modal {
+  background-color: rgba(160, 32, 240, 0.025); /* Neon purple background color */
+  color: #fff; /* Text color */
+}
+
+.custom-modal .modal-header {
+  border-bottom: none; /* Remove bottom border */
+}
+
+.custom-modal .modal-title {
+  color: #000000; /* Title text color */
+}
+
+.custom-modal .modal-body {
+  color: #000000; /* Body text color */
+}
+
+.custom-modal .modal-footer {
+  border-top: none; /* Remove top border */
+}
+
+.custom-modal .btn-danger {
+  background-color: #a100f8; /* Neon purple button background color */
+  border-color: #ff00ff; /* Neon purple button border color */
+  color: #fff; /* Button text color */
+}
+
+.custom-modal .btn-danger:hover {
+  background-color: #cc00cc; /* Darker neon purple on hover */
+  border-color: #cc00cc; /* Darker neon purple border color on hover */
 }

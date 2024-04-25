@@ -56,44 +56,38 @@ function Section3() {
     }
   }, [fadeIn, hasScrolledDown]);
   return (
-    <div className="section3 d-flex flex-column align-items-center justify-content-center pptt" ref={sectionRef}>
-      <h2 className="title3 pt-6">Guide</h2>
-      <div className="row w-75 pptt2 ppbb">
+    <div className="section3  pptt pt-3" ref={sectionRef}>
+      <h2 className="title3 pt-6 text-center ">Guide</h2>
+      <div className="row w-100 pptt2 ppbb px-md-5 ">
         <div className={`col-md-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[0] ? 'fade-in' : ''}`}>
-          <div className="w-90 h-100 d-flex align-items-center justify-content-center">
-            <div className='text-center w-100 '>
-              <p className='p311'>1</p>
-              <img src={installImage} alt="Install" style={{ height: imageSize, padding: '20px 0' }} />
+    <div>
+    <p className='p311'>1</p>
+              <img src={installImage} alt="Install" style={{ width: imageSize, height: imageSize, justifyContent:'center',alignItems:'center' }} />
               <p className='p31 tis'>Install the app</p>
-            </div>
-          </div>
+    </div>
+             
+     
         </div>
         <div className={`col-md-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[1] ? 'fade-in' : ''}`}>
-          <div className="w-90 h-100 d-flex align-items-center justify-content-center">
-            <div className='text-center w-75'>
-              <p className='p321'>2</p>
+  <div>
+              <p className='p311'>2</p>
               <img src={accountImage} alt="Account" style={{ width: imageSize, height: imageSize }} />
-              <p className='p32 tis'>Sign up</p>
-            </div>
-          </div>
+              <p className='p31 tis'>Sign up</p>
+              </div>
         </div>
         <div className={`col-md-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[2] ? 'fade-in' : ''}`}>
-          <div className="w-90 h-100 d-flex align-items-center justify-content-center">
-            <div className='text-center w-75'>
-              <p className='p331'> 3</p>
+        <div>
+              <p className='p311'> 3</p>
               <img src={drinkImage} alt="Drink" style={{ width: imageSize, height: imageSize }} />
-              <p className='p33 tis'>Free drink</p>
-            </div>
-          </div>
+              <p className='p31 tis'>Free drink</p>
+              </div>
         </div>
         <div className={`col-md-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[3] ? 'fade-in' : ''}`}>
-          <div className="w-90 h-100 d-flex align-items-center justify-content-center">
-            <div className='text-center w-75'>
-              <p className='p341'>4</p>
+        <div>
+              <p className='p311'>4</p>
               <img src={funImage} alt="Fun" style={{ width: imageSize, height: imageSize }} />
-              <p className='p34 tis'>Have fun</p>
-            </div>
-          </div>
+              <p className='p31 tis'>Have fun</p>
+              </div>
         </div>
       </div>
     </div>

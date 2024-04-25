@@ -8,7 +8,7 @@ import bar3 from '../images/bar3.jpg';
 
 function Section5() {
   return (
-    <div className="container section5 pptt ppbb">
+    <div className="container section5 pptt ppbb pt-3">
       <h2 className="carousel-title ppbb3 title5">Discover the Hottest Spots</h2>
       <Carousel className="carousel">
         <Carousel.Item>
