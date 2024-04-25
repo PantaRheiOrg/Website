@@ -8,8 +8,8 @@ import bar3 from '../images/bar3.jpg';
 
 function Section5() {
   return (
-    <div className="container pptt ppbb">
-      <h2 className="carousel-title ppbb3 title5">Explore the Nightlife</h2>
+    <div className="container section5 pptt ppbb">
+      <h2 className="carousel-title ppbb3 title5">Discover the Hottest Spots</h2>
       <Carousel className="carousel">
         <Carousel.Item>
           <img
@@ -18,8 +18,8 @@ function Section5() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Find Your Perfect Vibe</h3>
+            <p>Discover the most happening bars and clubs for the current moment, tailored to your preferences.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -29,8 +29,8 @@ function Section5() {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Explore User Reviews</h3>
+            <p>Read real-time reviews and ratings from fellow patrons to help you choose the best spot for your night out.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -40,8 +40,8 @@ function Section5() {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h3>Share Your Experience</h3>
+            <p>Submit your own reviews and ratings to contribute to the community and help others find their perfect venue.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

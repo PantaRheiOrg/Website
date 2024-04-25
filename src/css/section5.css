@@ -1,59 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 .title5 {
-  color: #161616;
-  font-size: 70px;
-  font-weight: bold;
+  font-family: 'Luckiest Guy', cursive; /* Apply the Luckiest Guy font for a fun and humorous look */
+  color: #8400ff; /* Change title color to a vibrant tone */
+  font-size: 3.5rem; /* Increase font size for emphasis */
+  font-weight:400;
   text-transform: uppercase;
-
+  margin-bottom: 50px; /* Increase spacing below the title */
 }
 
-.carousel-container {
-  height: 500px; /* Set a fixed height for the carousel container */
-}
 
 .carousel-title {
-  text-align: center; /* Center the title */
-  font-size: 2rem; /* Increase font size */
-  margin-bottom: 30px; /* Add some spacing below the title */
-  color: #333; /* Change title color */
+  text-align: center;
 }
 
+
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background to caption */
-  padding: 20px; /* Add padding to caption */
-  border-radius: 10px; /* Add border radius to caption */
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(49, 49, 49, 0.8)); /* Darken the background color and add transparency */
+  padding: 15px; /* Increase padding for better readability */
+  border-radius: 15px; /* Increase border radius for a softer look */
 }
 
 .carousel-caption h3 {
-  color: #fff; /* Change caption title color */
-  font-size: 1.5rem; /* Increase caption title font size */
+  color: #fff; /* Keep caption title color white for visibility */
+  font-size: 2rem; /* Increase caption title font size */
+  font-weight: bold; /* Ensure caption titles are bold */
+  margin-bottom: 15px; /* Add spacing below caption titles */
 }
 
 .carousel-caption p {
-  color: #fff; /* Change caption text color */
+  color: #e6e6e6; /* Adjust caption text color for better readability */
+  font-size: 1.3rem; /* Increase caption text font size */
+  line-height: 1.5; /* Improve line spacing for better readability */
+  padding-bottom: 10px;
 }
 
 .carousel-image {
-  height: 570px; /* Set the height of the images to fill the carousel container */
-  width: 100%; /* Ensure the image takes up the entire width of its container */
-  object-fit: cover; /* Crop the image to cover the entire container */
-  border-radius: 10px; /* Add border radius to images */
+  height: 600px; /* Adjust image height for better visual impact */
+  object-fit: cover;
+  border-radius: 15px; /* Increase border radius for a softer look */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow for depth */
 }
 
-
-
-.carousel-control-prev {
-  left: -50px; /* Position the previous control arrow */
-}
-
+.carousel-control-prev,
 .carousel-control-next {
-  right: -50px; /* Position the next control arrow */
+  width: 8%; /* Adjust control arrow width */
+  border-radius: 50%; /* Make control arrows circular */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #fff; /* Change control arrow color to white */
+}
+
+.carousel-indicators {
+  bottom: 20px; /* Adjust position of carousel indicators */
 }
 
 .carousel-indicators li {
-  background-color: #333; /* Change carousel indicator color */
-  border-radius: 50%; /* Make carousel indicators circular */
+  background-color: rgba(255, 111, 97, 0.8); /* Use the same vibrant color for carousel indicators */
+  width: 10px; /* Adjust width of carousel indicators */
+  height: 10px; /* Adjust height of carousel indicators */
+  margin-right: 5px; /* Add spacing between carousel indicators */
+  margin-left: 5px;
 }
 
 .carousel-indicators .active {
-  background-color: #fff; /* Change color of active carousel indicator */
+  background-color: #fff; /* Change color of active carousel indicator to white */
 }
