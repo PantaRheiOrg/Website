@@ -30,12 +30,13 @@
     width: 35vh;
     border-radius:52px; /* Adjust the border-radius to match the curved edges of your image */
     box-shadow: 0 0 30px rgba(255, 0, 0, 0.3); /* Start with red shadow */
+    filter: brightness(1.6); 
     transition: filter 0.3s; /* Add transition for smooth effect */
     animation: shadow-color2 7s infinite alternate; /* Apply the animation */
   }
   
   .phone-image4:hover {
-    filter: brightness(1.2); /* Increase brightness on hover */
+    filter: brightness(1.9); /* Increase brightness on hover */
   }
   .custom-background2 {
     background-image: url('../images/mysterious.png');

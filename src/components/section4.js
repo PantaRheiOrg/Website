@@ -20,7 +20,7 @@ function Section4() {
                   <img 
                     src={partyImage} 
                     alt="Party" 
-                    className="phone-image4" // Add the phone-image class here
+                    className="phone-image4" 
                   />
                 </div>
               </div>
