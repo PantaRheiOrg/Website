@@ -56,7 +56,7 @@ function Section3() {
     }
   }, [fadeIn, hasScrolledDown]);
   return (
-    <div className="section3  pptt pt-3" ref={sectionRef}>
+    <div className="section3  pptt pt-5" ref={sectionRef}>
       <h2 className="title3 pt-6 text-center ">Guide</h2>
       <div className="row w-100 pptt2 ppbb px-md-5 ">
         <div className={`col-md-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[0] ? 'fade-in' : ''}`}>

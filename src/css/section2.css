@@ -33,6 +33,7 @@
     overflow: hidden; /* Hide overflowing content */
   }
   .phone-image2 {
+    filter: brightness(0.80); 
     width: 35vh;
     border-radius:52px; /* Adjust the border-radius to match the curved edges of your image */
     box-shadow: 0 0 30px rgba(255, 0, 0, 0.3); /* Start with red shadow */
@@ -41,7 +42,7 @@
   }
   
   .phone-image2:hover {
-    filter: brightness(0.90); /* Increase brightness on hover */
+    filter: brightness(1.0); /* Increase brightness on hover */
   }
   
   @keyframes shadow-color4 {
