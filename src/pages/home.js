@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from '../components/footer';
 import Section1 from '../components/section1';
 import Section2 from '../components/section2';
@@ -8,17 +8,25 @@ import Section5 from '../components/section5';
 import EmailForm from '../components/emailForm';
 
 function Home() {
+  const [language, setLanguage] = useState('da'); 
+
+  const handleLanguageChange = (lang) => {
+    if (lang !== language) {
+      setLanguage(lang);
+    }
+  };
+
   return (
     <>
       <div>
-        <Section1 />
-        <Section3 />
-        <Section2 />
-        <Section5 />
-        <Section4 />
-        <EmailForm/> 
+        <Section1 language={language} handleLanguageChange={handleLanguageChange} /> 
+        <Section3 language={language}/>
+        <Section2 language={language}/>
+        <Section5 language={language}/>
+        <Section4 language={language}/>
+        <EmailForm language={language}/> 
       </div>
-      <Footer />
+      <Footer language={language}/> 
     </>
   );
 }

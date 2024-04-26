@@ -1,0 +1,130 @@
+{
+    "title": {
+      "en": "THE PARTY APP",
+      "da": "THE PARTY APP"
+    },
+    "subtitle": {
+      "en": "Get a free drink to start the night every time you explore with PNTA.",
+      "da": "Få en gratis drink til at starte aftenen hver gang du udforsker med PNTA."
+    },
+    "modalTitle": {
+      "en": "App soon available!",
+      "da": "App snart tilgængelig!"
+    },
+    "modalBody": {
+      "en": "PNTA is not available yet, for more information please contact @oliver",
+      "da": "PNTA er endnu ikke tilgængelig, for mere information kontakt venligst @oliver"
+    },
+    "closeButton": {
+      "en": "Close",
+      "da": "Luk"
+    },
+    "getAppComponent": {
+      "en": "Get App",
+      "da": "Hent app"
+    },
+    "section2Title": {
+      "en": "heat!",
+      "da": "varme!"
+    },
+    "section2Subtitle": {
+      "en": "Unleash your inner thrill-seeker and discover the pulse-pounding epicenters of action-packed excitement!",
+      "da": "Udforsk dit indre eventyr og opdag de pulserende epicentre af actionfyldt spænding!"
+    },
+    "section3Title": {
+      "en": "Guide",
+      "da": "Guide"
+    },
+    "section3Steps": {
+      "1": {
+        "en": "Install the app",
+        "da": "Installer appen"
+      },
+      "2": {
+        "en": "Sign up",
+        "da": "Tilmeld dig"
+      },
+      "3": {
+        "en": "Free drink",
+        "da": "Gratis drink"
+      },
+      "4": {
+        "en": "Have fun",
+        "da": "Ha' det sjovt"
+      }
+    },
+    "section5Title": {
+      "en": "Discover the Hottest Spots",
+      "da": "Opdag de hotteste steder"
+    },
+    "carouselSlides": [
+      {
+        "en": {
+          "title": "Find Your Perfect Vibe",
+          "subtitle": "Discover the most happening bars and clubs for the current moment, tailored to your preferences."
+        },
+        "da": {
+          "title": "Find din perfekte stemning",
+          "subtitle": "Opdag de mest happening barer og klubber for øjeblikket, tilpasset dine præferencer."
+        }
+      },
+      {
+        "en": {
+          "title": "Explore User Reviews",
+          "subtitle": "Read real-time reviews and ratings from fellow patrons to help you choose the best spot for your night out."
+        },
+        "da": {
+          "title": "Udforsk brugeranmeldelser",
+          "subtitle": "Læs anmeldelser og bedømmelser i realtid fra medpatroner for at hjælpe dig med at vælge det bedste sted til din aften."
+        }
+      },
+      {
+        "en": {
+          "title": "Share Your Experience",
+          "subtitle": "Submit your own reviews and ratings to contribute to the community and help others find their perfect venue."
+        },
+        "da": {
+          "title": "Del din oplevelse",
+          "subtitle": "Indsend dine egne anmeldelser og bedømmelser for at bidrage til fællesskabet og hjælpe andre med at finde deres perfekte sted."
+        }
+      }
+    ],
+    "section4Title": {
+      "en": "Mystery",
+      "da": "Mysterium"
+    },
+    "section4Subtitle": {
+      "en": "Take photos during the night, even when you've had a few drinks, and discover them the next day with our exclusive Night Capture feature!",
+      "da": "Tag billeder om natten, selv når du har fået lidt at drikke, og opdag dem næste dag med vores eksklusive Night Capture-funktion!"
+    },
+    "emailFormTitle": {
+      "en": "Send Us a Question 🚀",
+      "da": "Send os et spørgsmål 🚀"
+    },
+    "emailFormSubjectLabel": {
+      "en": "Subject",
+      "da": "Emne"
+    },
+    "emailFormSubjectPlaceholder": {
+      "en": "Enter subject",
+      "da": "Indtast emne"
+    },
+    "emailFormMessageLabel": {
+      "en": "Message",
+      "da": "Besked"
+    },
+    "emailFormMessagePlaceholder": {
+      "en": "Enter message",
+      "da": "Indtast besked"
+    },
+    "emailFormSubmitButton": {
+      "en": "Send Invitation",
+      "da": "Send invitation"
+    },
+    "footerText": {
+      "en": "PNTA. All rights reserved.",
+      "da": "PNTA. Alle rettigheder forbeholdes."
+    }
+    
+  }
+  

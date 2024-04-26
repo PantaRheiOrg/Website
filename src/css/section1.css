@@ -163,3 +163,26 @@
   background-color: #cc00cc; /* Darker neon purple on hover */
   border-color: #cc00cc; /* Darker neon purple border color on hover */
 }
+
+
+.language-slider {
+  position: absolute;
+  z-index: 10;
+  top:10px;
+  right: 10px; 
+}
+
+.flag-link {
+  margin-right: 10px;
+}
+
+.flag-link img {
+  width: 30px; /* Adjust the size as needed */
+  height: auto;
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.flag-link img:hover {
+  opacity: 0.8; /* Optional: Reduce opacity on hover for a visual indication */
+  transform: scale(1.2); /* Scale up on hover */
+}
