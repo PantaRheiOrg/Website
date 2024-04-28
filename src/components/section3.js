@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react';
 import '../css/section3.css';
-import installImage from '../images/install.png';
-import accountImage from '../images/account.png';
-import drinkImage from '../images/drink.png';
-import funImage from '../images/fun.png';
+import installImage from '../images/1.gif';
+import accountImage from '../images/2.gif';
+import drinkImage from '../images/3.gif'; 
+import funImage from '../images/4.gif';
 import texts from '../text/texts.json';  
 
 function Section3({ language }) {
@@ -11,7 +11,7 @@ function Section3({ language }) {
   const [hasScrolledDown, setHasScrolledDown] = useState(false);
   const sectionRef = useRef(null);
 
-  const imageSize = '190px'; // Set the size for the images
+  const imageSize = '300px'; // Set the size for the images
 
   useEffect(() => {
     const handleScroll = () => {
@@ -60,28 +60,28 @@ function Section3({ language }) {
     <div className="section3  pptt pt-5" ref={sectionRef}>
     <h2 className="title3 pt-6 text-center ">{texts.section3Title[language]}</h2>
     <div className="row w-100 pptt2 ppbb px-md-5 ">
-      <div className={`col-md-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[0] ? 'fade-in' : ''}`}>
+      <div className={`col-lg-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[0] ? 'fade-in' : ''}`}>
         <div>
           <p className='p311'>1</p>
           <img src={installImage} alt="Install" style={{ width: imageSize, height: imageSize, justifyContent: 'center', alignItems: 'center' }} />
           <p className='p31 tis'>{texts.section3Steps['1'][language]}</p>
         </div>
       </div>
-      <div className={`col-md-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[1] ? 'fade-in' : ''}`}>
+      <div className={`col-lg-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[1] ? 'fade-in' : ''}`}>
         <div>
           <p className='p311'>2</p>
           <img src={accountImage} alt="Account" style={{ width: imageSize, height: imageSize }} />
           <p className='p31 tis'>{texts.section3Steps['2'][language]}</p>
         </div>
       </div>
-      <div className={`col-md-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[2] ? 'fade-in' : ''}`}>
+      <div className={`col-lg-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[2] ? 'fade-in' : ''}`}>
         <div>
           <p className='p311'> 3</p>
           <img src={drinkImage} alt="Drink" style={{ width: imageSize, height: imageSize }} />
           <p className='p31 tis'>{texts.section3Steps['3'][language]}</p>
         </div>
       </div>
-      <div className={`col-md-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[3] ? 'fade-in' : ''}`}>
+      <div className={`col-lg-3 col-sm-6 d-flex align-items-center justify-content-center ${fadeIn[3] ? 'fade-in' : ''}`}>
         <div>
           <p className='p311'>4</p>
           <img src={funImage} alt="Fun" style={{ width: imageSize, height: imageSize }} />

@@ -1,0 +1,347 @@
+body
+{
+   @keyframes pulse
+   {
+      0%
+      { box-shadow: inset 0px 0px 150px 20px #ebacda }
+      20%
+      { box-shadow: inset 0px 0px 150px 10px #cdcdcd }
+      100%
+      { box-shadow: inset 0px 0px 150px 10px #cdefab }
+   }
+   
+   margin: 0px;
+   background: #FFF;
+   animation: pulse 0.25s ease-in 0s infinite alternate;
+}
+
+.toy-box
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+}
+.toy
+{
+   &.turntable
+   {
+      $tt-color: #333;
+      display: inline-flex;
+
+      .platter-base
+      {
+         $p-base-size: 100px;
+         $p-diam: $p-base-size - 20px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: $p-base-size;
+         height: $p-base-size;
+         border-radius: 20px;
+         padding: 3px;
+         background: $tt-color;
+         box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.5);
+
+         >.inner
+         {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: calc(100% - 3px);
+            height: calc(100% - 4px);
+            border: 2px solid #555;
+            border-radius: 18px;
+
+            .platter
+            {
+               @keyframes spin
+               {
+                  from
+                  {
+                     transform: rotate(0deg);
+                  }
+                  to
+                  {
+                     transform: rotate(360deg);
+                  }
+               }
+               
+               display: inline-flex;
+               align-items: center;
+               justify-content: center;
+               width: $p-diam;
+               height: $p-diam;
+               position: relative;
+               border-radius: 50%;
+               background: $tt-color;
+               animation: spin 5s linear 0s infinite running;
+
+               .inner-ring
+               {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  position: relative;
+                  border: 2px solid #555;
+                  border-radius: 50%;
+                  background: darken($tt-color, 5%);
+
+                  &.ring-2,
+                  &.ring-3
+                  {
+                     &::before,
+                     &::after
+                     {
+                        content: "";
+                        display: block;
+                        width: 4px;
+                        height: 4px;
+                        position: absolute;
+                        background: $tt-color;
+                     }
+
+                     &::before
+                     {
+                        top: -2px;
+                     }
+
+                     &::after
+                     {
+                        bottom: -2px;
+                     }
+                  }
+
+                  &.ring-1
+                  {
+                     width: 100%;
+                     height: 100%;
+
+                     .ring-2
+                     {
+                        width: $p-diam - $p-diam / 5;
+                        height: $p-diam - $p-diam / 5;
+
+                        &::before
+                        {
+                           top: initial;
+                           left: -2px;
+                        }
+
+                        &::after
+                        {
+                           bottom: initial;
+                           right: -2px;
+                        }
+
+                        .ring-3
+                        {
+                           width: $p-diam - 2 * ($p-diam / 5);
+                           height: $p-diam - 2 * ($p-diam / 5);
+                           background-size: cover;
+                           background-position: 50%;
+                           background-repeat: no-repeat;
+
+                           .ring-4
+                           {
+                              width: $p-diam - 3.5 * ($p-diam / 5);
+                              height: $p-diam - 3.5 * ($p-diam / 5);
+                              border-color: transparent;
+                              background: #ffb71e;
+                           }
+
+                           .ring-5
+                           {
+                              width: $p-diam - 5 * ($p-diam / 5);
+                              height: $p-diam - 5 * ($p-diam / 5);
+                              border-color: #fff;
+                              background: #fff;
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+
+      .mixer
+      {
+         $mixer-color: #333;
+         $mixer-width: 80px;
+         $mixer-height: 100px;
+         display: inline-block;
+         width: $mixer-width;
+         height: $mixer-height;
+         position: relative;
+         margin: 0px 15px;
+         border-radius: 10px;
+         padding: 3px;
+         background: $mixer-color;
+         box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.5);
+
+         >.inner
+         {
+            width: auto;
+            height: calc(100% - 4px);
+            border: 2px solid #555;
+            border-radius: 8px;
+
+            .screen
+            {
+               display: flex;
+               justify-content: space-evenly;
+               width: 60%;
+               height: 15px;
+               position: relative;
+               margin: auto;
+               margin-top: 10px;
+               border-radius: 3px;
+               padding: 1px 2px;
+               background: #bbb;
+               background: #b5c0ff;
+               box-shadow: 0px 0px 10px 1px rgba(#b5c0ff, 0.5);
+               transform: scaleY(-1);
+
+               .bar 
+               {
+                  display: inline-block;
+                  width: 5px;
+                  height: 5%;
+                  margin: 0px auto;
+                  background: #888;
+                  transition: height 0.3s ease-in-out;
+
+                  &:nth-child(1)
+                  {
+                     @keyframes bounce-1 { to{ height: 52% }}
+                     animation: bounce-1 0.5s ease 0s infinite alternate;
+                  }
+
+                  &:nth-child(2)
+                  {
+                     @keyframes bounce-2 { to{ height: 80% }}
+                     animation: bounce-2 0.5s ease 0s infinite alternate;
+                  }
+
+                  &:nth-child(3)
+                  {
+                     @keyframes bounce-3 { to{ height: 48% }}
+                     animation: bounce-3 0.5s ease 0s infinite alternate;
+                  }
+
+                  &:nth-child(4)
+                  {
+                     @keyframes bounce-4 { to{ height: 30% }}
+                     animation: bounce-4 0.5s ease 0s infinite alternate;
+                  }
+
+                  &:nth-child(5)
+                  {
+                     @keyframes bounce-5 { to{ height: 70% }}
+                     animation: bounce-5 0.5s ease 0s infinite alternate;
+                  }
+               }
+            }
+            
+            .controls
+            {  
+               cursor: pointer;
+               
+               .buttons
+               {
+                  padding-top: 10px;
+                  text-align: center;
+                  line-height: 0px;
+
+                  .button
+                  {
+                     display: inline-block;
+                     width: 8px;
+                     height: 8px;
+                     margin-bottom: 5px;
+                     border: 1px solid #555;
+                     border-top-color: #999;
+                     border-left-color: #999;
+                     background: #777;
+                     transition: all 0.1s linear;
+                     
+                     &.pressed
+                     {
+                        background: darken(#b5c0ff, 10%);
+                        box-shadow: 0px 0px 5px 1px rgba(#b5c0ff, 0.25);
+                        
+                        &:hover
+                        {
+                           background: darken(#b5c0ff, 15%);
+                           opacity: 0.75;
+                        }
+                     }
+                     
+                     &:hover
+                     {
+                        border-top-color: #555;
+                        border-left-color: #555;
+                        background: #666;
+                     }
+                  }
+               }
+               
+               input[type="range"].slider
+               {
+                  display: block;
+                  position: absolute;
+                  z-index: 1;
+                  max-width: 60%;
+                  left: 5px;
+                  right: 5px;
+                  bottom: 10px;
+                  margin: auto;
+                  background: transparent;
+                  -webkit-appearance: none;
+                  cursor: pointer;
+                  
+                  &:focus
+                  {
+                     outline: none;
+                  }
+                  
+                  &::-webkit-slider-thumb
+                  {
+                     -webkit-appearance: none;
+                     width: 8px;
+                     height: 16px;
+                     position: relative;
+                     bottom: 6px;
+                     border: 2px solid #444;
+                     border-top-color: #888;
+                     border-left-color: #888;
+                     border-radius: 2px;
+                     background: #666;
+                  }
+                  
+                  &::-webkit-slider-runnable-track
+                  {
+                     width: 100%;
+                     height: 4px;
+                     position: relative;
+                     bottom: 10px;
+                     border-right: 5px solid #444;
+                     border-left: 5px solid #444;
+                     background: #555;
+                  }
+                  
+                  &::-ms-track
+                  {
+                     border-color: transparent;                 
+                     background: transparent;
+                     color: transparent;
+                  }
+               }
+            }
+         }
+      }
+   }
+}

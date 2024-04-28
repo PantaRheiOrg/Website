@@ -5,7 +5,8 @@ import texts from '../text/texts.json'; // Import JSON file
 
 function Section2({ language }) { 
   return (
-    <div className="section2 d-flex align-items-center justify-content-center">
+    <div className="section2 d-flex align-items-center justify-content-center" 
+    style={{backgroundColor:'red', zIndex:999}}>
       <div className="row w-100">
         <div className="col-md-6 d-flex align-items-center justify-content-center">
           <div className="w-90 h-100 d-flex align-items-center justify-content-center">

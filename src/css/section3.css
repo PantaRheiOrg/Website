@@ -53,6 +53,7 @@
 
 .p311 {
   font-family: 'Press Start 2P', cursive;
+  margin-bottom: -10px;
   font-size: 58px; /* Increase the font size */
   color: transparent; /* Make the text transparent */
   -webkit-text-stroke: 1px black; /* Add outline with black color */

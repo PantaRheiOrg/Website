@@ -9,7 +9,8 @@ import texts from '../text/texts.json';
 
 function Section5({ language }) {
   return (
-    <div className="container section5 pptt ppbb pt-3">
+    <div className="section5">
+<div className="container pptt ppbb pt-3">
       <h2 className="carousel-title ppbb3 title5">{texts.section5Title[language]}</h2>
       <Carousel className="carousel">
         {texts.carouselSlides.map((slide, index) => (
@@ -23,6 +24,8 @@ function Section5({ language }) {
         ))}
       </Carousel>
     </div>
+    </div>
+    
   );
 }
 
