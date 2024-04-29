@@ -9,7 +9,12 @@
     
     
   }
-  
+  canvas {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+  }
   .title {
     color: #f8f9fa; /* Hot pink heading */
     font-size: 66px; /* Increase font size */
