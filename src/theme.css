@@ -1,0 +1,14 @@
+ body {
+     background: #0a0a11;
+ }
+
+ .rounded-4 {
+     border-radius: 1rem !important;
+ }
+
+ .app-shell {
+     background:
+         radial-gradient(900px 500px at 20% 10%, rgba(255, 110, 180, 0.15), rgba(0, 0, 0, 0)),
+         radial-gradient(900px 500px at 80% 10%, rgba(60, 240, 210, 0.12), rgba(0, 0, 0, 0)),
+         #0a0a11;
+ }
