@@ -12,7 +12,7 @@ import { Flame, Users2, MapPin, Wifi, BatteryFull, Signal, ArrowRight, Compass, 
  */
 export default function IPhonePNTAReal({ city = "Copenhagen", width = 340, className = "" }) {
   const w = width;
-  const h = Math.round(w * 2.1);
+  const h = Math.round(w * 2);
   const r = 34;
 
   return (
@@ -156,20 +156,7 @@ export default function IPhonePNTAReal({ city = "Copenhagen", width = 340, class
               right={<GoButton />}
             />
 
-            {/* CTA */}
-            <button
-              className="btn w-100 fw-semibold mt-1"
-              style={{
-                color: "#0d0f14",
-                background:
-                  "linear-gradient(90deg,#ffffff,#e7eefc)",
-                border: "1px solid rgba(255,255,255,.8)",
-                borderRadius: 10,
-                boxShadow: "0 8px 20px rgba(255,255,255,.08)",
-              }}
-            >
-              Tap in <ArrowRight size={16} className="ms-1" />
-            </button>
+
 
             {/* home indicator */}
             <div
@@ -195,7 +182,7 @@ export default function IPhonePNTAReal({ city = "Copenhagen", width = 340, class
             left: 9,
             right: 9,
             bottom: 33,
-            background: "rgba(0, 0, 0, 0.6)",
+            background: "rgba(255,255,255,.1)",
             border: "1px solid rgba(255,255,255,0)",
             backdropFilter: "blur(8px)",
           }}
@@ -292,7 +279,7 @@ function NavIcon({ label, Icon, active }) {
       className="d-flex flex-column align-items-center"
       style={{ color: active ? "#ffffff" : "rgba(255,255,255,.6)", fontSize: 10 }}
     >
-      <Icon size={18} />
+      <Icon size={17} />
       <span className="mt-1">{label}</span>
     </div>
   );
