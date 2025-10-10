@@ -138,7 +138,7 @@ export default function IPhonePNTAReal({ city = "Copenhagen", width = 340, class
             <MapImageCard
               title="Hot spots nearby"
               subtitle={`${city} • map preview`}
-              src="./Website/map.jpg"  // ← your image path
+              src="https://pantarheiorg.github.io/Website/map.jpg"  // ← your image path
             //href="/maps/vesterbro"                      
             />
             {/* FEED CARDS */}
@@ -288,11 +288,11 @@ function NavIcon({ label, Icon, active }) {
 function MapImageCard({
   title = "Explore nearby",
   subtitle = "Map snapshot",
-  src,                 // <- your image url goes here
+  src,
   alt = "Map snapshot",
   height = 160,
   rounded = 14,
-  href,                // optional: open a details route / deeplink on click
+  href,
 }) {
   return (
     <div
