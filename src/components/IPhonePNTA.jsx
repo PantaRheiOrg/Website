@@ -1,7 +1,7 @@
 // IPhonePNTAReal.jsx (polished PNTA screen)
 import React from "react";
 import { motion } from "framer-motion";
-import { Flame, Users2, MapPin, Wifi, BatteryFull, Signal, ArrowRight, Compass, Home, User, } from "lucide-react";
+import { Users2, MapPin, Wifi, BatteryFull, Signal, Compass, Home, User } from "lucide-react";
 
 /**
  * Realistic iPhone with refined PNTA app UI
