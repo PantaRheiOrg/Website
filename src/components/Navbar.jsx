@@ -12,7 +12,7 @@ export default function Navbar({ t, lang, toggle }) {
             <li className="nav-item"><a className="nav-link" href="#how">{t.how_heading}</a></li>
             <li className="nav-item"><a className="nav-link" href="#faq">{t.faq_title}</a></li>
             <li className="nav-item"><LanguageSwitcher lang={lang} toggle={toggle} label={t.lang_label} toLabel={t.toggle_to} /></li>
-            <li className="nav-item"><a href="#waitlist" className="btn btn-light text-dark fw-semibold rounded-pill px-3 ms-lg-2">{t.cta_join}</a></li>
+
           </ul>
         </div>
       </div>
