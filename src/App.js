@@ -13,6 +13,7 @@ import BannerCTA from "./components/BannerCTA";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import AdminPage from "./components/AdminPage";
+import { BusinessPage } from "./BUSSINESS";
 
 function MainSite() {
   const { lang, setLang, toggle, t } = useI18n();
@@ -37,6 +38,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<MainSite />} />
         <Route path="/admin" element={<AdminPage />} />
+        <Route path="/business" element={<BusinessPage />} />
       </Routes>
     </Router>
   );

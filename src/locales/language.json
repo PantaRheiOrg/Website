@@ -9,7 +9,11 @@
     "hero_sub": "Be first to experience PNTA: curated bars, real-time vibes, and instant access. Join the list—your night just leveled up.",
     "email_ph": "Your email",
     "cta_join": "Join waitlist",
-    "bullets": ["Privacy-first","iOS & Android","Invite-only beta"],
+    "bullets": [
+      "Privacy-first",
+      "iOS & Android",
+      "Invite-only beta"
+    ],
     "features_heading": "What makes PNTA different",
     "features_sub": "Designed for the night: curated discovery, live energy, and doors that open for you.",
     "f1_t": "Curated Bars Near You",
@@ -33,17 +37,131 @@
     "banner_p": "Enter your email to claim early access. We'll let you know the moment PNTA opens in your city.",
     "faq_title": "FAQ",
     "qa": [
-      {"q":"When is PNTA launching?","a":"We are rolling out city by city. Join the waitlist for your city’s date."},
-      {"q":"Which platforms are supported?","a":"iOS and Android at launch. Web companion later."},
-      {"q":"Do I need an invite?","a":"Early access is invite-only. Joining the waitlist increases your chances."},
-      {"q":"How do you handle privacy?","a":"We collect the minimum data necessary and never sell your info. You control visibility."}
+      {
+        "q": "When is PNTA launching?",
+        "a": "We are rolling out city by city. Join the waitlist for your city’s date."
+      },
+      {
+        "q": "Which platforms are supported?",
+        "a": "iOS and Android at launch. Web companion later."
+      },
+      {
+        "q": "Do I need an invite?",
+        "a": "Early access is invite-only. Joining the waitlist increases your chances."
+      },
+      {
+        "q": "How do you handle privacy?",
+        "a": "We collect the minimum data necessary and never sell your info. You control visibility."
+      }
     ],
     "footer_terms": "Terms",
     "footer_privacy": "Privacy",
     "footer_contact": "Contact",
     "footer_soon": "Coming soon",
     "lang_label": "Language",
-    "toggle_to": "Dansk"
+    "toggle_to": "Dansk",
+    "business_nav_label": "For venues",
+    "business": {
+      "hero_badge": "Venue partnerships",
+      "hero_title": "Fill your rooms with the right crowd, right now",
+      "hero_subtitle": "PNTA connects high-intent guests to leading venues with live demand signals, loyalty insights, and seamless door management.",
+      "hero_cta_primary": "Book a discovery call",
+      "hero_cta_secondary": "Explore solutions",
+      "hero_card_title": "PNTA Venue OS",
+      "hero_card_subtitle": "Purpose-built tooling for busy nightlife teams",
+      "hero_card_metric": {
+        "title": "+28% uplift in repeat visits",
+        "description": "Partners see measurable growth within the first 60 days."
+      },
+      "hero_card_customers": {
+        "title": "Who we partner with",
+        "description": "Premium cocktail bars, music-led venues, speakeasies, and members clubs across Europe.",
+        "tags": [
+          "Cocktail bars",
+          "Live venues",
+          "Speakeasies",
+          "Members clubs"
+        ]
+      },
+      "stats": [
+        {
+          "value": "120+",
+          "label": "Qualified guests added weekly"
+        },
+        {
+          "value": "35%",
+          "label": "Average higher spend per visit"
+        },
+        {
+          "value": "6 cities",
+          "label": "Active PNTA nightlife hubs"
+        }
+      ],
+      "highlights_badge": "Solutions",
+      "highlights_heading": "A modern partnership for forward-thinking venues",
+      "highlights_subheading": "Unlock real-time demand, elevated guest experiences, and smarter operations through one partner program.",
+      "highlights": [
+        {
+          "icon": "revenue",
+          "title": "Predictable, high-value traffic",
+          "description": "Tap into curated members who match your concept and spend profile with guaranteed minimums on key nights."
+        },
+        {
+          "icon": "insights",
+          "title": "Live demand signals",
+          "description": "See who is inbound, forecast covers, and adjust staffing with confidence using our live dashboard."
+        },
+        {
+          "icon": "communication",
+          "title": "Direct guest communication",
+          "description": "Send offers, manage guest lists, and confirm tables instantly through one streamlined channel."
+        }
+      ],
+      "how_badge": "How it works",
+      "how_heading": "Onboard, go live, and measure impact in weeks",
+      "how_subheading": "We act as an extension of your host team so you can focus on hospitality while we drive the right demand.",
+      "steps": [
+        {
+          "title": "Design your ideal guest profile",
+          "description": "Align on target demographics, visit cadence, and KPIs with our partnership strategist."
+        },
+        {
+          "title": "Launch PNTA experiences",
+          "description": "Integrate the PNTA Venue OS at the door and sync with your reservations or POS stack."
+        },
+        {
+          "title": "Review performance together",
+          "description": "Access detailed revenue insights and monthly strategy sessions to keep results compounding."
+        }
+      ],
+      "testimonials_badge": "Trusted partners",
+      "testimonials_heading": "What venues say about PNTA",
+      "testimonials_subheading": "Hospitality leaders across Europe rely on PNTA to bring in the right guests and actionable insights every night.",
+      "testimonials": [
+        {
+          "name": "Sofia L.",
+          "role": "General Manager, Neon House Copenhagen",
+          "quote": "PNTA delivers guests who get our concept. Our team now spends time hosting instead of vetting lists."
+        },
+        {
+          "name": "Marco D.",
+          "role": "Owner, Notte Blu Milano",
+          "quote": "Within a month, Thursdays became our strongest night thanks to PNTA's demand data and outreach."
+        },
+        {
+          "name": "Helena V.",
+          "role": "Experience Director, Atlas Club Berlin",
+          "quote": "The partnership feels collaborative. We iterate on programming together and see immediate uplift."
+        }
+      ],
+      "cta_heading": "Let’s map out your PNTA partnership",
+      "cta_subheading": "Share your details and our partnerships team will craft a tailored rollout plan for your venue.",
+      "cta_primary": "Connect with partnerships",
+      "cta_primary_email": "partnerships@pnta.app",
+      "cta_secondary": "Download the business overview",
+      "cta_secondary_link": "https://pnta.app/business-overview.pdf",
+      "cta_disclaimer": "We respond within two business days. Access is currently limited to select cities."
+    }
   },
   "da": {
     "brand": "PNTA",
@@ -55,7 +173,11 @@
     "hero_sub": "Vær først til at prøve PNTA: kuraterede barer, live stemning og instant adgang. Tilmeld ventelisten — din aften er opgraderet.",
     "email_ph": "Din e-mail",
     "cta_join": "Tilmeld venteliste",
-    "bullets": ["Privacy-first","iOS & Android","Invite-only beta"],
+    "bullets": [
+      "Privacy-first",
+      "iOS & Android",
+      "Invite-only beta"
+    ],
     "features_heading": "Hvad gør PNTA anderledes",
     "features_sub": "Skabt til natten: kurateret discovery, live energi og døre der åbner for dig.",
     "f1_t": "Kuraterede barer tæt på",
@@ -79,16 +201,130 @@
     "banner_p": "Indtast din e-mail for tidlig adgang. Vi skriver så snart PNTA åbner i din by.",
     "faq_title": "FAQ",
     "qa": [
-      {"q":"Hvornår lancerer PNTA?","a":"Vi ruller ud by for by. Tilmeld ventelisten for datoen i din by."},
-      {"q":"Hvilke platforme understøttes?","a":"iOS og Android ved lancering. Web senere."},
-      {"q":"Skal jeg have en invite?","a":"Tidlig adgang er invite-only. Tilmelding øger chancen."},
-      {"q":"Hvordan håndterer I privatliv?","a":"Vi indsamler kun det nødvendige og sælger aldrig dine data. Du styrer synligheden."}
+      {
+        "q": "Hvornår lancerer PNTA?",
+        "a": "Vi ruller ud by for by. Tilmeld ventelisten for datoen i din by."
+      },
+      {
+        "q": "Hvilke platforme understøttes?",
+        "a": "iOS og Android ved lancering. Web senere."
+      },
+      {
+        "q": "Skal jeg have en invite?",
+        "a": "Tidlig adgang er invite-only. Tilmelding øger chancen."
+      },
+      {
+        "q": "Hvordan håndterer I privatliv?",
+        "a": "Vi indsamler kun det nødvendige og sælger aldrig dine data. Du styrer synligheden."
+      }
     ],
     "footer_terms": "Vilkår",
     "footer_privacy": "Privatliv",
     "footer_contact": "Kontakt",
     "footer_soon": "Kommer snart",
     "lang_label": "Sprog",
-    "toggle_to": "English"
+    "toggle_to": "English",
+    "business_nav_label": "Til venues",
+    "business": {
+      "hero_badge": "Venue-partnerskaber",
+      "hero_title": "Fyld huset med de rigtige gæster – i realtid",
+      "hero_subtitle": "PNTA forbinder kvalitetsgæster med førende venues via live efterspørgselsdata, loyalitetsindsigter og smidig dørstyring.",
+      "hero_cta_primary": "Book et møde",
+      "hero_cta_secondary": "Se løsninger",
+      "hero_card_title": "PNTA Venue OS",
+      "hero_card_subtitle": "Værktøj bygget til travle nightlife-teams",
+      "hero_card_metric": {
+        "title": "+28% flere gengangere",
+        "description": "Partnere oplever målbar vækst inden for de første 60 dage."
+      },
+      "hero_card_customers": {
+        "title": "Vi samarbejder med",
+        "description": "Premium cocktailbarer, musikvenues, speakeasies og members clubs på tværs af Europa.",
+        "tags": [
+          "Cocktailbarer",
+          "Live venues",
+          "Speakeasies",
+          "Members clubs"
+        ]
+      },
+      "stats": [
+        {
+          "value": "120+",
+          "label": "Kvalificerede gæster hver uge"
+        },
+        {
+          "value": "35%",
+          "label": "Gns. højere spend pr. besøg"
+        },
+        {
+          "value": "6 byer",
+          "label": "Aktive PNTA hubs"
+        }
+      ],
+      "highlights_badge": "Løsninger",
+      "highlights_heading": "Et moderne partnerskab for ambitiøse venues",
+      "highlights_subheading": "Få adgang til live efterspørgsel, bedre gæsteoplevelser og smartere drift gennem ét program.",
+      "highlights": [
+        {
+          "icon": "revenue",
+          "title": "Forudsigelig, værdifuld trafik",
+          "description": "Tiltræk kuraterede medlemmer der matcher jeres koncept og spend – med garantier på nøgleaftener."
+        },
+        {
+          "icon": "insights",
+          "title": "Live efterspørgselsdata",
+          "description": "Se hvem der er på vej, forudse belægning og planlæg bemanding med ro i maven."
+        },
+        {
+          "icon": "communication",
+          "title": "Direkte gæstedialog",
+          "description": "Send tilbud, håndter gæstelister og bekræft borde via én strømlinet kanal."
+        }
+      ],
+      "how_badge": "Sådan gør vi",
+      "how_heading": "Fra onboarding til effekt på få uger",
+      "how_subheading": "Vi fungerer som en forlængelse af jeres host-team, så I kan fokusere på værtskab mens vi driver den rette efterspørgsel.",
+      "steps": [
+        {
+          "title": "Definér den ideelle gæsteprofil",
+          "description": "Afstem målgrupper, frekvens og KPI'er med vores partneransvarlige."
+        },
+        {
+          "title": "Lancér PNTA-oplevelser",
+          "description": "Integrer PNTA Venue OS ved døren og synk med jeres booking- eller POS-setup."
+        },
+        {
+          "title": "Evaluer resultater sammen",
+          "description": "Få indsigt i omsætning og månedlige strategisessions der holder momentum."
+        }
+      ],
+      "testimonials_badge": "Partnere",
+      "testimonials_heading": "Hvad venues siger om PNTA",
+      "testimonials_subheading": "Hospitality-ledere i hele Europa stoler på PNTA for at få de rigtige gæster og brugbar indsigt hver aften.",
+      "testimonials": [
+        {
+          "name": "Sofia L.",
+          "role": "General Manager, Neon House København",
+          "quote": "PNTA sender gæster der forstår vores univers. Teamet kan fokusere på værtskab fremfor screening."
+        },
+        {
+          "name": "Marco D.",
+          "role": "Ejer, Notte Blu Milano",
+          "quote": "Efter en måned var torsdage vores stærkeste aften takket være PNTAs efterspørgselsdata og outreach."
+        },
+        {
+          "name": "Helena V.",
+          "role": "Experience Director, Atlas Club Berlin",
+          "quote": "Samarbejdet er reelt. Vi udvikler programmeringen sammen og ser straks effekt."
+        }
+      ],
+      "cta_heading": "Lad os planlægge jeres PNTA-partnerskab",
+      "cta_subheading": "Del jeres detaljer, så udarbejder vores partnerteam en rollout-plan tilpasset jeres venue.",
+      "cta_primary": "Kontakt partnerteamet",
+      "cta_primary_email": "partnerships@pnta.app",
+      "cta_secondary": "Download business-overview",
+      "cta_secondary_link": "https://pnta.app/business-overview.pdf",
+      "cta_disclaimer": "Vi vender tilbage inden for to hverdage. Adgang er lige nu begrænset til udvalgte byer."
+    }
   }
 }
